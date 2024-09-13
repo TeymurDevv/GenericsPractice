@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "C#-Generic-Collections-Datastructure.Helpers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/C#-Generic-Collections-Datastructure.Helpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/C#-Generic-Collections-Datastructure.Helpers.dll": {}
+        }
+      },
+      "GenericPractice.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "C#-Generic-Collections-Datastructure.Helpers": "1.0.0",
+          "GenericsPractice.Helpers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GenericPractice.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GenericPractice.Domain.dll": {}
+        }
+      },
+      "GenericsPractice.Helpers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GenericsPractice.Helpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GenericsPractice.Helpers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C#-Generic-Collections-Datastructure.Helpers/1.0.0": {
+      "type": "project",
+      "path": "../C#-Generic-Collections-Datastructure.Helpers/C#-Generic-Collections-Datastructure.Helpers.csproj",
+      "msbuildProject": "../C#-Generic-Collections-Datastructure.Helpers/C#-Generic-Collections-Datastructure.Helpers.csproj"
+    },
+    "GenericPractice.Domain/1.0.0": {
+      "type": "project",
+      "path": "../C#-Generic-Collections-Datastructure.Domain/GenericPractice.Domain.csproj",
+      "msbuildProject": "../C#-Generic-Collections-Datastructure.Domain/GenericPractice.Domain.csproj"
+    },
+    "GenericsPractice.Helpers/1.0.0": {
+      "type": "project",
+      "path": "../C#-Generic-Collections-Datastructure.Helpers/GenericsPractice.Helpers.csproj",
+      "msbuildProject": "../C#-Generic-Collections-Datastructure.Helpers/GenericsPractice.Helpers.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "GenericPractice.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\TeymurDevv\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\TeymurDevv\\Desktop\\DateTime Task\\CS-Generic-Collections-Datastructure-main\\C#-Generic-Collections-Datastructure\\GenericsPractice.Datastructure.csproj",
+      "projectName": "GenericsPractice.Datastructure",
+      "projectPath": "C:\\Users\\TeymurDevv\\Desktop\\DateTime Task\\CS-Generic-Collections-Datastructure-main\\C#-Generic-Collections-Datastructure\\GenericsPractice.Datastructure.csproj",
+      "packagesPath": "C:\\Users\\TeymurDevv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TeymurDevv\\Desktop\\DateTime Task\\CS-Generic-Collections-Datastructure-main\\C#-Generic-Collections-Datastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\TeymurDevv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\TeymurDevv\\Desktop\\DateTime Task\\CS-Generic-Collections-Datastructure-main\\C#-Generic-Collections-Datastructure.Domain\\GenericPractice.Domain.csproj": {
+              "projectPath": "C:\\Users\\TeymurDevv\\Desktop\\DateTime Task\\CS-Generic-Collections-Datastructure-main\\C#-Generic-Collections-Datastructure.Domain\\GenericPractice.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

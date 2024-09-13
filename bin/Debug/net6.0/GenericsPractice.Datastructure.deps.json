@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GenericsPractice.Datastructure/1.0.0": {
+        "dependencies": {
+          "GenericPractice.Domain": "1.0.0"
+        },
+        "runtime": {
+          "GenericsPractice.Datastructure.dll": {}
+        }
+      },
+      "GenericPractice.Domain/1.0.0": {
+        "dependencies": {
+          "C#-Generic-Collections-Datastructure.Helpers": "1.0.0",
+          "GenericsPractice.Helpers": "1.0.0"
+        },
+        "runtime": {
+          "GenericPractice.Domain.dll": {}
+        }
+      },
+      "GenericsPractice.Helpers/1.0.0": {
+        "runtime": {
+          "GenericsPractice.Helpers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GenericsPractice.Datastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GenericPractice.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GenericsPractice.Helpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
